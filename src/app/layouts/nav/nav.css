@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: space-between;
   color: rgb(27, 92, 190);
-  border: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
 }
 .logo {
   font-size: clamp(18px, 4vw, 24px);
