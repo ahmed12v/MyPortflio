@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, HostListener } from '@angular/core';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
@@ -17,9 +17,12 @@ export class Nav {
   toggleMenu() {
     this.menuOpen = !this.menuOpen;
   }
-
   closeMenu() {
     this.menuOpen = false;
   }
+  
+
+
+
 
 }

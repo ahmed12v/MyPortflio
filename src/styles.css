@@ -1,4 +1,4 @@
-    @import "../node_modules/bootstrap/dist/css/bootstrap.min.css" ;
+ @import "../node_modules/bootstrap/dist/css/bootstrap.min.css" ;
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +6,8 @@
 }
 :root{
     --primary-color: rgb(27, 92, 190);
-    --secondary-color: #00ffcc;
+    --secondary-color: #e8e5e5;
     --back-color:#ffffff;
     --font-color: #333;
 }
+
