@@ -4,10 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background: linear-gradient(120deg, #0a1f44, #0b3a7a);
+}
 :root{
-    --primary-color: rgb(27, 92, 190);
-    --secondary-color: #e8e5e5;
-    --back-color:#ffffff;
-    --font-color: #333;
+    --primary-color: #0b3a7a;
+    --secondary-color: #ffb703;
+    --font-color: #ffffff;
+    --background: linear-gradient(120deg, #0a1f44, #0b3a7a);
 }
 
