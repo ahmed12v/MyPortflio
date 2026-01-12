@@ -1,5 +1,11 @@
 <nav class="navbar" >
-  <div class="logo">Portfolio</div>
+  <div class="logo"> 
+    <button class="resume-btn"
+     (click)="openMycv()"
+     >
+       Resume
+    </button>
+  </div>
 
   <div class="burger" [class.active]="menuOpen" (click)="toggleMenu()">
     <span></span>

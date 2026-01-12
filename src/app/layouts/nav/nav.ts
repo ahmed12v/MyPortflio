@@ -20,6 +20,9 @@ export class Nav {
   closeMenu() {
     this.menuOpen = false;
   }
+  openMycv(){
+    window.open("https://drive.google.com/file/d/1zXvT6AtexNgjAvy4XzoptfmecV7cpr9B/view?usp=drive_link", "_blank");
+  }
   
 
 
