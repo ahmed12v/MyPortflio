@@ -129,4 +129,12 @@
   .navbar {
     padding: 0 20px;
   }
+  .resume-btn{
+  background-color: var(--secondary-color);
+  color:var(--font-color);
+  border: solid 2px var(--secondary-color) !important;
+  padding: 4px 8px;  
+  border-radius: 4px;
+  font-weight: bold;
+}
 }
