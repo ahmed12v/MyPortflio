@@ -13,4 +13,9 @@ body{
     --font-color: #ffffff;
     --background: linear-gradient(120deg, #0a1f44, #0b3a7a);
 }
+.no-scroll {
+  overflow: hidden;
+  height: 100vh;
+}
+
 
