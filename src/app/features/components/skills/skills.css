@@ -46,3 +46,16 @@ h5{
 .skils-card:hover .typescript-imge{
     transform: rotate(15deg);
 }
+@media (max-width: 576px) {
+  
+  .skills-title h2{
+    font-weight: 800;
+    color: rgb(254 178 26);
+    font-size: 2rem;
+}
+.skills-title p{
+    font-size: 1rem;
+    color: rgb(156 163 175 );
+    line-height: 1.75rem;
+}
+}
