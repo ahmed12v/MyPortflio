@@ -46,6 +46,22 @@ h5{
 .skils-card:hover .typescript-imge{
     transform: rotate(15deg);
 }
+.skill-item {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+.skill-item.show {
+  animation: skillFadeUp 1.5s ease-out forwards;
+}
+
+@keyframes skillFadeUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 @media (max-width: 576px) {
   
   .skills-title h2{
