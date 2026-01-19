@@ -1,0 +1,85 @@
+.education-section {
+  padding: 40px;
+  margin-top: 70px;
+
+}
+
+.section-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 60px;
+    color: rgb(254 178 26);
+}
+
+.timeline {
+  max-width: 900px;
+  margin: auto;
+  position: relative;
+  display: grid;
+  gap: 30px;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(rgb(254 178 26), transparent);
+}
+
+.edu-card {
+  position: relative;
+  padding: 24px 24px 24px 50px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 16px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.edu-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+}
+
+.edu-card h3 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #ffffff;
+}
+
+.edu-card .place {
+  color: #cbd5f5;
+  font-size: 15px;
+}
+
+.edu-card .date {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 13px;
+  color: #94a3b8;
+}
+
+.dot {
+  position: absolute;
+  left: 2px;
+  top: 28px;
+  width: 16px;
+  height: 16px;
+  background: rgb(254 178 26);
+  border-radius: 50%;
+  box-shadow: 0 0 0 6px rgba(34,211,238,0.15);
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .section-title {
+    font-size: 28px;
+  }
+
+  .edu-card {
+    padding-left: 40px;
+  }
+}
