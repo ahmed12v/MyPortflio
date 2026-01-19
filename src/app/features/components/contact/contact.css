@@ -18,6 +18,7 @@
     padding: 2.5rem;
     border: solid 1px rgb(55 65 81 )   ;
     border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
 
 }
 .contact-card-one:hover{
@@ -56,6 +57,7 @@
     padding: 2.5rem;
     border: solid 1px rgb(55 65 81 )   ;
     border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0,0,0,0.18);
 }
 .contact-card-tow:hover{
     border: 1px solid rgb(254 178 26);
