@@ -1,8 +1,11 @@
 import { Component } from '@angular/core';
+import { ScrollRevealDirective } from '../../../shared/directives/animation';
 
 @Component({
   selector: 'app-projects',
-  imports: [],
+  imports: [
+    ScrollRevealDirective
+  ],
   templateUrl: './projects.html',
   styleUrl: './projects.css',
 })
