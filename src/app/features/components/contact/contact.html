@@ -37,17 +37,23 @@
 
             <div class="col-md-6 slide-right">
                 <div class="contact-card-one">
-               <form>
+               <form [formGroup]="contactForm" (ngSubmit)="sendMassage()">
                     <div class="mb-3">
-                        <input type="text" class="form-control" id="name" placeholder="Name">
+                        <input formControlName="name"
+                        required  type="text" class="form-control" id="name" placeholder="Name">
                     </div>
                     <div class="mb-3">
-                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input formControlName="email" required
+                         type="email" class="form-control" id="email" placeholder="Email">
                     </div>
                     <div class="mb-3">
-                        <textarea class="form-control" id="message" rows="5" placeholder="Message"></textarea>
+                        <textarea formControlName="message"
+                         required class="form-control" id="message" rows="5" placeholder="Message"></textarea>
                     </div>
-                    <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                    <button  [disabled]="contactForm.invalid || loading()" 
+                    class="btn btn-primary w-100">
+                        {{ loading() ? 'Sending...' : 'Send Message' }}
+                </button>
                 </form>
                 </div>
                 
